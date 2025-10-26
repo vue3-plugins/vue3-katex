@@ -10,12 +10,10 @@ jobs:
     if: github.repository == 'vue3-plugins/vue3-katex'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
       - run: yarn install
-      - run: yarn prerelease
-      - uses: JS-DevTools/npm-publish@v3
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+      - run: yarn prereleas
+      - run: npm publish --provenance --ignore-scriptse
