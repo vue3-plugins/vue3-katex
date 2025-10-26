@@ -15,5 +15,5 @@ jobs:
         with:
           node-version: '24'
       - run: yarn install
-      - run: yarn prereleas
+      - run: yarn prerelease
       - run: npm publish --provenance --ignore-scriptse
