@@ -40,10 +40,10 @@ In your script entry point:
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import VueKatex from 'vue3-katex'
+import Vue3Katex from 'vue3-katex'
 import 'katex/dist/katex.min.css'
 
-createApp(App).use(VueKatex, {
+createApp(App).use(Vue3Katex, {
   katexOptions: {
     //... Define globally applied KaTeX options here
   },
@@ -63,7 +63,7 @@ Options applied globally through the plugin will be merged with any options appl
 Katex options can be applied globally when the plugin is used like so:
 
 ```js
-createApp(App).use(VueKatex, {
+createApp(App).use(Vue3Katex, {
   katexOptions: {
     //... Define globally applied KaTeX options here
   },
