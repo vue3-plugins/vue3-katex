@@ -775,7 +775,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/server-renderer@npm:3.5.35":
+"@vue/server-renderer@npm:3.5.35, @vue/server-renderer@npm:^3.5.35":
   version: 3.5.35
   resolution: "@vue/server-renderer@npm:3.5.35"
   dependencies:
@@ -1525,6 +1525,13 @@ __metadata:
   bin:
     glob: dist/esm/bin.mjs
   checksum: 10c0/19a9759ea77b8e3ca0a43c2f07ecddc2ad46216b786bb8f993c445aee80d345925a21e5280c7b7c6c59e860a0154b84e4b2b60321fea92cd3c56b4a7489f160e
+  languageName: node
+  linkType: hard
+
+"globals@npm:^17.6.0":
+  version: 17.6.0
+  resolution: "globals@npm:17.6.0"
+  checksum: 10c0/cf94fb4329cc5c68cf81018fd68324f413181ee169f0235b0b33b82bc93fe7825a21beea951f83a80e8e4bbdad9c0c80515a145b5fd4b5cb52f2a80db899a93f
   languageName: node
   linkType: hard
 
@@ -2768,6 +2775,7 @@ __metadata:
     "@vitejs/plugin-vue": "npm:^6.0.7"
     "@vitest/coverage-v8": "npm:^4.1.8"
     "@vue/compiler-dom": "npm:^3.5.35"
+    "@vue/server-renderer": "npm:^3.5.35"
     "@vue/test-utils": "npm:^2.4.11"
     deepmerge: "npm:^4.3.1"
     eslint: "npm:^10.4.1"
@@ -2775,6 +2783,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-prettier: "npm:^5.5.6"
     eslint-plugin-vue: "npm:^10.9.2"
+    globals: "npm:^17.6.0"
     jsdom: "npm:^29.1.1"
     katex: "npm:^0.17.0"
     postcss: "npm:^8.5.15"
